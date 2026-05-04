@@ -87,7 +87,7 @@ Here is how to run:
 
 ## Running the Project
 
-To execute the ns3 simulation, is is similar to compiling the simulation.
+To execute the ns3 simulation, it is similar to compiling the simulation.
 
 Here is to running `ns-demo.cc`
 
