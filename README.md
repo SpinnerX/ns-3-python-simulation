@@ -16,30 +16,41 @@ cd ns-3-dev
 
 # Configuring
 ./ns3 configure --enable-python-bindings --enable-examples
-./ns3
+
+# Building ns3
+./ns3 build
 ```
 
 ## Clone this project
 
 To run this simulation for ease of demonstration, you can just clone this project into the ns3 project.
 
+Still inside `ns-3-dev` directory. Clone this project itself by doing:
 
-## Running the Project
+```
+git clone https://github.com/SpinnerX/ns-3-python-simulation scratch/ns-3-python-simulation
+```
 
-To run specific python simulation files.
+## Building the Project
+
+To demonstrate if the setup builds correctly, we are going to build the `ns-demo.cc` file. 
+
+> !!! tip
+> every code in the `scratch/` directory can be compiled simply doing `./ns3 build <file or directory>
 
 Here is how to run:
 
 ```
-./ns3 run <filename>
-```
-
-I added a test file called `test.py` to make sure it is working fine.
-
-To run, do the following:
-
-```
-./ns3 run test.py
+./ns3 build scratch/ns-3-python-simulation/ns-demo
 ```
 
 
+## Running the Project
+
+To execute the ns3 simulation, is is similar to compiling the simulation.
+
+Here is to running `ns-demo.cc`
+
+```
+./ns3 run scratch/ns-3-python-simulation/ns-demo
+```
