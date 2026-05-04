@@ -10,6 +10,11 @@ Make sure to already have `python` and `pip` (`pipx`) already installed.
 
 First clone the repository and configure ns3:
 
+> [!TIP]
+> To generate compile_commands.json for LSP for IDE add `-- -DCMAKE_EXPORT_COMPILE_COMMANDS=ON` to the ns3 configure command
+> Entire command looks like: `./ns3 configure --enable-python-bindings --enable-examples -- -DCMAKE_EXPORT_COMPILE_COMMANDS=ON`
+
+
 ```bash
 git clone https://github.com/nsnam/ns-3-dev.git
 cd ns-3-dev
