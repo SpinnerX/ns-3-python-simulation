@@ -36,7 +36,7 @@ git clone https://github.com/SpinnerX/ns-3-python-simulation scratch/ns-3-python
 To demonstrate if the setup builds correctly, we are going to build the `ns-demo.cc` file. 
 
 > [!TIP]
-> every code in the `scratch/` directory can be compiled simply doing `./ns3 build <file or directory>
+> every code in the `scratch/` directory can be compiled simply doing `./ns3 build <file or directory>`
 
 Here is how to run:
 
