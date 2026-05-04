@@ -26,6 +26,41 @@ cd ns-3-dev
 ./ns3 build
 ```
 
+# Running Matplotlib
+
+This instructions are for running the `plots.py` to see the benchmarks that was done written in Python.
+
+
+Here are required instructions to get the python script to work successfully.
+
+## Creating Virtual Environment
+
+```bash
+python3 -m venv venv
+```
+
+## Activating VirtualEnv
+
+```bash
+source venv/bin/activate
+```
+
+## Installing with Requirements.txt
+
+```bash
+pip install -r requirements.txt
+```
+
+## Running Plots.py
+
+```bash
+python3 plots.py
+```
+
+# Integrating with NS-3
+
+In this section, I demonstrate how to get NS3 C++ code to work with minimal requirements
+
 ## Clone this project
 
 To run this simulation for ease of demonstration, you can just clone this project into the ns3 project.
