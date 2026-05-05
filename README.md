@@ -16,7 +16,7 @@ First clone the repository and configure ns3:
 
 
 ```bash
-git clone https://github.com/nsnam/ns-3-dev.git
+git clone https://github.com/nsnam/ns-3-dev-git
 cd ns-3-dev
 
 # Configuring
